@@ -9,7 +9,7 @@ function App() {
   const [error, setError] = useState<string | null>(null);
   const [inputSearch, setInputSearch] = useState<string>('');
 
-  const PEXELS_API_KEY: string = 'TU_CLAVE_PEXELS';
+  const PEXELS_API_KEY: string = '7MNYN2D1PMCHotXxkliNAh4c8XlJvIGizZLX1HUPamAVW7G1BdmQ94BP';
 
   useEffect(() => {
     fetchPhotos(query);
